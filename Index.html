@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>شقق للكراء في مدينة الحسيمة</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background-color: #007BFF;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .listings {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .listing {
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .listing img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+        .listing-info {
+            padding: 15px;
+        }
+        .listing-info h3 {
+            margin: 0 0 10px;
+            color: #007BFF;
+        }
+        .listing-info p {
+            margin: 5px 0;
+        }
+        .price {
+            font-weight: bold;
+            color: #007BFF;
+        }
+        .cta-button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        .cta-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>شقق للكراء في مدينة الحسيمة</h1>
+    </header>
+    <div class="listings">
+        <div class="listing">
+            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="شقة">
+            <div class="listing-info">
+                <h3>شقة في قلب المدينة</h3>
+                <p>2 غرف، 1 حمام</p>
+                <p class="price">300 درهم / ليلة</p>
+                <button class="cta-button">احجز الآن</button>
+            </div>
+        </div>
+        <div class="listing">
+            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="شقة">
+            <div class="listing-info">
+                <h3>شقة بمنظر طبيعي</h3>
+                <p>3 غرف، 2 حمام</p>
+                <p class="price">450 درهم / ليلة</p>
+                <button class="cta-button">احجز الآن</button>
+            </div>
+        </div>
+        <div class="listing">
+            <img src="https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" alt="شقة">
+            <div class="listing-info">
+                <h3>شقة عصرية</h3>
+                <p>1 غرفة، 1 حمام</p>
+                <p class="price">250 درهم / ليلة</p>
+                <button class="cta-button">احجز الآن</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
